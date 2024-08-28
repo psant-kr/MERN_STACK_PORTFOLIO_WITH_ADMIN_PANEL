@@ -7,6 +7,13 @@ cloudinary.v2.config({
   api_secret: process.env.CLOUDINARY_API_SECRET,
 });
 
+// ---- just to check server is running--------
+
+app.get("/ping", (req, res) => {
+  res.send("PONG.........");
+});
+
+
 app.listen(process.env.PORT, () => {
   console.log(`Server listening at port ${process.env.PORT}`);
 });
