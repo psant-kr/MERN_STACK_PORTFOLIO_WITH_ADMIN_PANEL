@@ -57,9 +57,9 @@ const Hero = () => {
         {/* <Link to={user.facebookURL} target="_blank">
           <Facebook className="text-blue-800 w-7 h-7" />
         </Link> */}
-        <Link to={user.linkedInURL} target="_blank">
+        {/* <Link to={user.linkedInURL} target="_blank">
           <Linkedin className="text-sky-500 w-7 h-7" />
-        </Link>
+        </Link> */}
         {/* <Link to={user.twitterURL} target="_blank">
           <Twitter className="text-blue-800 w-7 h-7" />
         </Link> */}
