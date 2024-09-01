@@ -48,28 +48,28 @@ const Hero = () => {
       </h1>
       <div className="w-fit px-5 py-2 bg-slate-50 rounded-[20px] flex gap-5 
       items-center mt-4 md:mt-8 lg:mt-10">
-        <Link to={"https://www.youtube.com/@CodeWithZeeshu"} target="_blank">
+        {/* <Link to={"https://www.youtube.com/@CodeWithZeeshu"} target="_blank">
           <Youtube className="text-red-500 w-7 h-7"/>
-        </Link>
-        <Link to={user.instagramURL} target="_blank">
+        </Link> */}
+        {/* <Link to={user.instagramURL} target="_blank">
           <Instagram className="text-pink-500 w-7 h-7" />
-        </Link>
-        <Link to={user.facebookURL} target="_blank">
+        </Link> */}
+        {/* <Link to={user.facebookURL} target="_blank">
           <Facebook className="text-blue-800 w-7 h-7" />
-        </Link>
+        </Link> */}
         <Link to={user.linkedInURL} target="_blank">
           <Linkedin className="text-sky-500 w-7 h-7" />
         </Link>
-        <Link to={user.twitterURL} target="_blank">
+        {/* <Link to={user.twitterURL} target="_blank">
           <Twitter className="text-blue-800 w-7 h-7" />
-        </Link>
+        </Link> */}
       </div>
       <div className="mt-4 md:mt-8 lg:mt-10  flex gap-3">
         <Link to={user.githubURL} target="_blank">
           <Button className="rounded-[30px] flex items-center gap-2 flex-row">
-            <span>
+            {/* <span>
               <Github />
-            </span>
+            </span> */}
             <span>Github</span>
           </Button>
         </Link>

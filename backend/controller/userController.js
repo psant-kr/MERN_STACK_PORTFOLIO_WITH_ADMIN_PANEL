@@ -79,6 +79,10 @@ export const register = catchAsyncErrors(async (req, res, next) => {
 
 export const login = catchAsyncErrors(async (req, res, next) => {
   const { email, password } = req.body;
+  
+  console.log("email", email);
+  console.log("password", password);
+
   if (!email || !password) {
     return next(new ErrorHandler("Provide Email And Password!", 400));
   }
@@ -198,7 +202,7 @@ export const updatePassword = catchAsyncErrors(async (req, res, next) => {
 });
 
 export const getUserForPortfolio = catchAsyncErrors(async (req, res, next) => {
-  const id = "663296a896e553748ab5b0be";
+  const id = "66d42caa4e5e592a8b22b8d7";
   const user = await User.findById(id);
   res.status(200).json({
     success: true,
