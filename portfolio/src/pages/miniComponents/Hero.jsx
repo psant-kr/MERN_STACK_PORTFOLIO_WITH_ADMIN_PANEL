@@ -18,7 +18,7 @@ const Hero = () => {
   useEffect(() => {
     const getMyProfile = async () => {
       const { data } = await axios.get(
-        "https://mern-stack-portfolio-with-admin-panel.onrender.com/api/v1/user/portfolio/me",
+        "https://mern-stack-portfolio-with-admin-panel-backend.vercel.app/api/v1/user/portfolio/me",
         { withCredentials: true }
       );
       setUser(data.user);
