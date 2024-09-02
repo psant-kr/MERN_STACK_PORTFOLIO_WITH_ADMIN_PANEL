@@ -7,7 +7,7 @@ const Skills = () => {
   useEffect(() => {
     const getMySkills = async () => {
       const { data } = await axios.get(
-        "https://mern-stack-portfolio-with-admin-panel-backend.vercel.app/api/v1/skill/getall",
+        "https://mern-stack-portfolio-with-admin-panel.onrender.com/api/v1/skill/getall",
         { withCredentials: true }
       );
       setSkills(data.skills);
