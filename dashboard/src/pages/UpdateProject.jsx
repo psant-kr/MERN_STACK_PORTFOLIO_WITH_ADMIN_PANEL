@@ -49,7 +49,7 @@ const UpdateProject = () => {
   useEffect(() => {
     const getProject = async () => {
       await axios
-        .get(`https://mern-stack-portfolio-with-admin-panel-backend.vercel.app/api/v1/project/get/${id}`, {
+        .get(`https://mern-stack-portfolio-with-admin-panel.onrender.com/api/v1/project/get/${id}`, {
           withCredentials: true,
         })
         .then((res) => {
