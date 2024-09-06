@@ -32,9 +32,9 @@ const About = () => {
           </div>
           <div className="flex justify-center flex-col tracking-[1px] text-xl gap-5">
             <p>
-              My name is Zeeshan, but my followers call me Zeeshu. I will
-              graduate in Software Engineering from SMIU around 2024. I work as
-              a web developer and freelancer. My hobbies include watching
+              My name is Prashant, but my followers call me Psant. I am
+              graduate in Electrical Engineering from KIIT  2018. I work as
+              a Software developer and freelancer. My hobbies include watching
               movies, series, playing video games, and occasionally cooking.
             </p>
             <p>
